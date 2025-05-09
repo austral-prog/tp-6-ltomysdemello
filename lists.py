@@ -28,11 +28,14 @@ def is_empty(lista):
 		return False
 
 def check_lists (list_to_check1, list_to_check2):
-	
-	if list_to_check1[2] == list_to_check2[2]:
-		return True
+	if len(list_to_check1) > 2 and len (list_to_check2) > 2:
+		if list_to_check1[2] == list_to_check2[2]:
+			return True
+		else:
+			return False
 	else:
 		return False
+	
 
 
 def list_of_lists(lists_of_lists_to_modify):
