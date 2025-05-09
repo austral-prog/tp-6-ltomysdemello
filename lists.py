@@ -22,7 +22,7 @@ def add_elements (list_add):
 
 
 def is_empty(lista):
-   if len(lista) == 0:
+	if len(lista) == 0:
 		return 'True'
 	else:
 		return 'False'
@@ -37,8 +37,8 @@ def check_lists (list_to_check):
 		return 'False'
 
 
-def list_of_lists(list_of_lists_to_modify):
-    list0 = lists_of_lists_to_modify[0]
+def list_of_lists(lists_of_lists_to_modify):
+	list0 = lists_of_lists_to_modify[0]
 	list1 = lists_of_lists_to_modify[1]
 	list2 = lists_of_lists_to_modify[2]
 
@@ -61,9 +61,9 @@ def list_of_lists(list_of_lists_to_modify):
 
 	len3 = len(list2)
 
-	if len2 == 1:
+	if len3 == 1:
 		list2_new = [list2[0]]
-	elif len2 >= 2:
+	elif len3 >= 2:
 		list2_new = [list2[-2], list2[-1]]
 
 	else:
