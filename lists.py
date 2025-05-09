@@ -23,16 +23,16 @@ def add_elements (list_add):
 
 def is_empty(lista):
 	if len(lista) == 0:
-		return 'True'
+		return True
 	else:
-		return false
+		return False
 
 def check_lists (list_to_check1, list_to_check2):
 	
 	if list_to_check1[2] == list_to_check2[2]:
-		return 'True'
+		return True
 	else:
-		return 'False'
+		return False
 
 
 def list_of_lists(lists_of_lists_to_modify):
