@@ -25,12 +25,10 @@ def is_empty(lista):
 	if len(lista) == 0:
 		return 'True'
 	else:
-		return 'false'
+		return false
 
 def check_lists (list_to_check1, list_to_check2):
-	list_to_check1 = list_to_check[0]
-	list_to_check2 = list_to_check[1]
-
+	
 	if list_to_check1[2] == list_to_check2[2]:
 		return 'True'
 	else:
@@ -57,7 +55,7 @@ def list_of_lists(lists_of_lists_to_modify):
 	elif len2 >= 4:
 		list1_new = [list1[1], list1[2], list1[3]]
 	else:
-		list2_new = []
+		list1_new = []
 
 	len3 = len(list2)
 
